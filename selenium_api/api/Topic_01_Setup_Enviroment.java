@@ -24,7 +24,7 @@ public class Topic_01_Setup_Enviroment {
   @Test
   public void TC_01_Check_Google_Title () {
 	  String googleTitle = driver.getTitle();
-	  Assert.assertEquals(googleTitle, "Googlee");
+	  Assert.assertEquals(googleTitle, "Google");
   }
   @Test
   public void TC_02_Check_Google_Url () {
