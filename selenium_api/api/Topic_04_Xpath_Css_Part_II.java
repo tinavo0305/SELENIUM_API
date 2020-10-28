@@ -143,7 +143,6 @@ public class Topic_04_Xpath_Css_Part_II {
 	  driver.findElement(By.xpath("//input[@id='confirmation']")).sendKeys(password); 
 	  driver.findElement(By.xpath("//button[@title='Register']")).click(); 
 	  
-	  
 	  WebElement pageTitle = driver.findElement(By.xpath("//h1[text()='My Dashboard']"));
 	  boolean status = pageTitle.isDisplayed();	 
 	  Assert.assertTrue(status);
